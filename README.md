@@ -11,6 +11,7 @@ engaged
 
 </ul>
 
+<h3><a href="http://topgravity.com/engaged-social-menu/">Demo</a></h3>
 Demo is included with with other files.
 Demo contain four different navigation menus. You may choose your own style and alignement, or even the full width on top. User may customize the menu but it is important not to remove the call to function engaged. Otherwise there will be no animation.
 </p>
