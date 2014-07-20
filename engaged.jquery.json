@@ -1,9 +1,10 @@
 {
   "name": "engaged",
   "title": "Engaged Social Menu",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "author": {
-    "name": "Imran Khan"
+    "name": "Imran Khan",
+    "email": "ik521992@outlook.com"
   },
   "description": "Engaged social menu is free to use and is a super simple menu that can be easily integrated into any website including Wordpress. Some of the beautiful icons from font awesome has been used to increase the beauty of the multi-drop down menu. Menu is meant for sites, that needs to preview their social status prominent and more visible to users.",
   "homepage": "https://github.com/topgravity/engaged",
