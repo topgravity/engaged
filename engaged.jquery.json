@@ -1,13 +1,13 @@
 {
   "name": "engaged",
-  "title": "jQuery.Engaged",
+  "title": "Engaged Social Menu",
   "version": "1.0.0",
   "author": {
     "name": "Imran Khan"
   },
   "description": "Engaged social menu is free to use and is a super simple menu that can be easily integrated into any website including Wordpress. Some of the beautiful icons from font awesome has been used to increase the beauty of the multi-drop down menu. Menu is meant for sites, that needs to preview their social status prominent and more visible to users.",
-  "homepage": "https://github.com/katranci/jQuery.positionSticky",
-  "docs": "https://github.com/katranci/jQuery.positionSticky",
+  "homepage": "https://github.com/topgravity/engaged",
+  "docs": "https://github.com/topgravity/engaged/tree/master/documentation",
   "demo": "http://topgravity.com/engaged-social-menu/",
   "bugs": "https://github.com/topgravity/engaged/issues",
   "keywords": [
