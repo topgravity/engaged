@@ -176,7 +176,10 @@ Choose Color
 </div>
 
 <div id="how-to-use">
+<p><span>Note:</span> if the animation don't change try to refresh the page</p>
 <center><h2><a href="https://github.com/topgravity/engaged">Download Engaged Menu</a></h2></center>
+<br>
+<h3>Introduction</h3>
 Engaged social menu is free to use and is a super simple menu that can be easily integrated into any website including Wordpress. Some of the beautiful icons from font awesome has been used to increase the beauty. 
 Menu is meant for sites, that needs to preview their social status prominent  and more visible to users.
 <ul>
@@ -184,7 +187,6 @@ Menu is meant for sites, that needs to preview their social status prominent  an
 <li>Simple code</li>
 <li>jQuery Animation</li>
 <li>Free Fonts by Font Awesome</li>
-<li>No images in menu<li>
 </ul>
 
 <h2>How to Use</h2>
@@ -196,13 +198,55 @@ Menu is meant for sites, that needs to preview their social status prominent  an
             <li>Engaged.js</li>
             <li>jQuery.js</li>
       </ul>
-       Demo is included with with other files. Two file named as demo.css and demo.js are optional and can be removed.   
-</p>
-  
+       Demo is included with with other files. Two file named as <code>demo.css</code> and <code>demo.js</code> are optional and can be removed. 
   There are four menus which are identified by the following ids;
   <br><strong><code>&lt;nav id="engaged"&gt;</code></strong> is right top menu, it can be stretched to 100% width.
   <br><strong><code>&lt;nav id="engaged-left-top"&gt;</code></strong> is left top menu with <code>min-width</code> of 200px;
-  <br><strong><code>&lt;nav id="engaged-left-aligned"&gt;</code></strong> and <br><strong><code>&lt;nav id="engaged-right-aligned"&gt;</code></strong> are left and right ones respectively.
+  <br><strong><code>&lt;nav id="engaged-left-aligned"&gt;</code></strong> and <br><strong><code>&lt;nav id="engaged-right-aligned"&gt;</code></strong> are left and right ones respectively.  
+</p>
+<br>
+<h3>How to change Animation</h3>
+<p>By default only one animation will work if <code>demo.js</code> is removed. If user want to change the animation open file <code>engaged.js</code> and find "openDownLeft" in here; 
+  <code><pre>
+   $all.mouseenter(function(){
+        $(this).addClass("magictime openDownLeft");
+    });
+    $all.mouseleave(function(){
+           $(this).removeClass("magictime openDownLeft");
+    });
+  </pre></code>
+
+  Now instead of "openDownLeft" following animations can be selected.
+<ul>
+<li>openDownLeft</li>
+<li>openDownRight</li>
+<li>openUpLeft</li>
+<li>openUpRight</li>
+<li>twisterInDown</li>
+<li>twisterInUp</li>
+<li>swap</li>
+<li>puffIn</li>
+<li>vanishIn</li>
+<li>openDownLeftRetourn</li>
+<li>openDownRightRetourn</li>
+<li>perspectiveDownRetourn</li>
+<li>perspectiveUpRetourn</li>
+<li>perspectiveLeftRetourn</li>
+<li>perspectiveRightRetourn</li>
+<li>slideDown</li>
+<li>slideLeft</li>
+<li>slideRight</li>
+<li>tinRightIn</li>
+<li>tinLeftIn</li>
+<li>tinUpIn</li>
+<li>tinDownIn</li>
+</ul>
+
+
+</p>
+
+  
+  
   
 <p id="lower-intro">
       Demo contain four different navigation menus. You may choose your own style and alignment, or even the full width on top. User may customize the menu but it is important not to remove the call to function engaged. Otherwise there will be no animation.
