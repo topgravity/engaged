@@ -1,4 +1,4 @@
-engaged
+Engaged Social Navigation Framework 
 =======
 <h2>Introduction</h2>
 Engaged social menu is a super simple menu that can be easily integrated into any website including Wordpress. Some of the beautiful icons from font awesome has been used to increase the beauty.
