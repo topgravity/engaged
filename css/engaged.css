@@ -130,6 +130,43 @@ box-shadow:         1px 1px 5px 0px rgba(50, 50, 50, 0.75);
 
 }
 
+
+#fa-facebook:hover{background-color: #3B5998;}
+#fa-google-plus:hover{background-color: #D34836 ;}
+#fa-twitter:hover{background-color: #4099FF;}
+#fa-stumbleupon:hover{background-color: #EB4924;}
+#fa-digg:hover{background-color: #000000;}
+#fa-flickr:hover{background-color: #0063DC;}
+#fa-tumblr:hover{background-color: #00225F;}
+#fa-youtube-play:hover{background-color: #C4302B;}
+#fa-linkedin:hover{background-color: #3399CC;}
+#fa-stack-overflow:hover{background-color: #FE7A15;}
+#fa-dribbble:hover{background-color: #EA4C89;}
+#fa-github:hover{background-color: #000;}
+#fa-pinterest:hover{background-color: #CB2027;}
+#fa-reddit:hover{background-color: #a4b5c6;}
+#fa-wordpress:hover{background-color: #21759B;}
+
+.fa-facebook:hover,
+.fa-google-plus:hover,
+.fa-twitter:hover,
+.fa-stumbleupon:hover,
+.fa-digg:hover,
+.fa-flickr:hover,
+.fa-tumblr:hover,
+.fa-youtube-play:hover,
+.fa-linkedin:hover,
+.fa-stack-overflow:hover,
+.fa-dribbble:hover,
+.fa-github:hover,
+.fa-pinterest:hover,
+.fa-reddit:hover,
+.fa-wordpress:hover{
+  color:#fff;
+
+}
+
+
 .fa-facebook {
     color:#3B5998;
 }
@@ -214,13 +251,7 @@ box-shadow:         1px 1px 5px 0px rgba(50, 50, 50, 0.75);
   -o-animation-fill-mode: both;
   animation-fill-mode: both;
 }
-.magic {
-  -webkit-animation-name: magic;
-  -moz-animation-name: magic;
-  -ms-animation-name: magic;
-  -o-animation-name: magic;
-  animation-name: magic;
-}
+
 .openDownLeft {
   -webkit-animation-name: openDownLeft;
   -moz-animation-name: openDownLeft;
