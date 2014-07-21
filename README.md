@@ -18,7 +18,7 @@ Demo is included with with other files.
 Demo contain four different navigation menus. You may choose your own style and alignement, or even the full width on top.
 <h3>How to change animation</h3>
 <p>By default only one animation will work if <code>demo.js</code> is removed. If user want to change the animation open file <code>engaged.js</code> and find "openDownLeft" in here; 
-  <br><br><code><pre>
+  <br><code><pre>
    $all.mouseenter(function(){
         $(this).addClass("magictime openDownLeft");
     });
