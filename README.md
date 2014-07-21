@@ -1,8 +1,9 @@
 engaged
 =======
-
+<h2>Introduction</h2>
+Engaged social menu is a super simple menu that can be easily integrated into any website including Wordpress. Some of the beautiful icons from font awesome has been used to increase the beauty.
 <h2>How to Use</h2>
-<p>Engaged Social Menu is super simple to implement. There are 5 files that must be included, for the menu to work perfectly. These are;
+<p>There are 4 files that must be included, for the menu to work perfectly. These are;
 <ul>
 <li>Engaged.css</li>
 <li>Engaged.js</li>
