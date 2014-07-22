@@ -1,7 +1,7 @@
 {
   "name": "engaged",
   "title": "Engaged Social Menu",
-  "version": "0.1.1",
+  "version": "0.1.4",
   "author": {
     "name": "Imran Khan",
     "email": "ik521992@outlook.com"
@@ -12,7 +12,13 @@
   "demo": "http://topgravity.com/engaged-social-menu/",
   "bugs": "https://github.com/topgravity/engaged/issues",
   "keywords": [
-    "animation","graphic"
+    "jquery",
+    "mobile",
+    "navigation",
+    "css3",
+    "html5",
+    "autoscroll",
+    "plugins"
   ],
   "licenses": [
     {
@@ -21,6 +27,6 @@
     }
   ],
   "dependencies": {
-    "jquery": "*"
+    "jquery": ">=1.7"
   }
 }
