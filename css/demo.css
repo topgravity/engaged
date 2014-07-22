@@ -1,0 +1,124 @@
+#different-colors{
+	width:500px;
+	height: 40px;
+	background-color: #fff;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top:150px;
+	
+
+}
+
+#different-color-introduction{
+	position: absolute;
+	float: left;
+	width: 200px;
+	background-color: #067;
+	height: 33px;
+	padding-top: 7px;
+	padding-left: 10px;
+
+}
+
+#practical-colors{
+	position: absolute;
+	float: right;
+	width: 300px;
+	background-color: #090;
+	height: 40px;
+	left: 200px;
+}
+
+#practical-colors ul li{
+	width: 50px;
+	margin: 0;
+	min-height: 40px;
+	float: left;
+	cursor: pointer;
+}
+
+
+#select-width{
+	width: 40%;
+	min-width:200px;
+	height: 40px;
+	background-color: #fff;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top:180px;
+-webkit-box-shadow: 1px 1px 5px 0px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    1px 1px 5px 0px rgba(50, 50, 50, 0.75);
+box-shadow:         1px 1px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+#select-width ul{
+	position: absolute;
+	width: 100%;
+}
+
+#select-width ul li{
+	width: 50%;
+	margin: 0;
+	height: 35px;
+	float: left;
+	cursor: pointer;
+	padding-top:5px;
+	text-align: center;
+}
+
+
+#rotate{
+	background-color: #454545;
+}
+
+#focus{
+	background-color: #323232;
+}
+
+#purple{
+	background-color: #9061C2;
+}
+
+#blue{
+	background-color: #7FB9E9;
+}
+
+#dark-blue{
+	background-color: #056;
+}
+
+#yellow{
+	background-color: #fa0;
+}
+
+#white{
+	background-color: #dddddd;
+}
+
+#black{
+	background-color: #161616;
+}
+
+#how-to-use{
+	width:45%;
+	min-width: 200px;
+	min-height: 200px;
+	background-color: #fff;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top:200px;
+	border-radius: 20px;
+	padding: 10px;
+}
+
+#how-to-use ul{
+	font-size: 10px;
+}
+
+#how-to-use #lower-intro{
+	font-size: 14px;
+	margin-top:5px; 
+}
