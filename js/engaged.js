@@ -1,33 +1,14 @@
 $(document).ready(function(){
 
-function engaged(){
-    function openDownLeft() 
-    {
-    $("#engaged ul li,#engaged-left-top ul li").mouseenter(function(){
-     $(this).toggleClass('magictime openDownLeft');
+var $all = $("#engaged ul li,#engaged-left-top ul li,#engaged-left-aligned ul li,#engaged-right-aligned ul li");
+   $all.mouseenter(function(){
+        $(this).addClass("magictime openDownLeft");
     });
-    $("#engaged ul li,#engaged-left-top ul li").mouseleave(function(){
-     $(this).toggleClass('magictime openDownLeft');
+    $all.mouseleave(function(){
+           $(this).removeClass("magictime openDownLeft");
     });
-    }
 
-function puffIn() 
-    {
-    $("#engaged-left-aligned ul li,#engaged-right-aligned ul li").mouseenter(function(){
-     $(this).toggleClass('magictime puffIn');
-    });
-    $("#engaged-left-aligned ul li,#engaged-right-aligned ul li").mouseleave(function(){
-     $(this).toggleClass('magictime puffIn');
-    });
-    }
-
-openDownLeft();
-puffIn();
-     
-
-
-
-
+    
 /* For color change   */
 $("#engaged ul li,#engaged-left-top ul li,#engaged-left-aligned ul li,#engaged-right-aligned ul li").mouseenter(function(){
 
@@ -137,11 +118,7 @@ $("#engaged ul li,#engaged-left-top ul li,#engaged-left-aligned ul li,#engaged-r
 
 
 });
-}
 
-
-
-engaged();
 
 
 
